@@ -1,0 +1,27 @@
+### Create an intake note
+POST http://localhost:8080/intake-notes
+Content-Type: application/json
+
+{
+  "patientAge": 45,
+  "symptomText": "Chest tightness for 2 days, worse with exertion, mild shortness of breath"
+}
+
+### List all intake notes
+GET http://localhost:8080/intake-notes
+
+### Get one note (change the id after you create one)
+GET http://localhost:8080/intake-notes/1
+
+### Update a note (change the id)
+PUT http://localhost:8080/intake-notes/1
+Content-Type: application/json
+
+{
+  "patientAge": 45,
+  "symptomText": "Updated: symptoms resolved after rest",
+  "status": "IN_REVIEW"
+}
+
+### Delete a note (change the id)
+###DELETE http://localhost:8080/intake-notes/1
