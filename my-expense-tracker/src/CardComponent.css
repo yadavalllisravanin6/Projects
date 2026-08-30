@@ -1,0 +1,54 @@
+.title{
+    text-align: center;
+    color: blueviolet;
+}
+
+.button{
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 8px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.input-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-section input,
+.input-section button {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.expenses-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.expenses-table th,
+.expenses-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.expenses-table th {
+  background-color: #f4f4f4;
+}
+
+.delete-btn {
+  background-color: #ff5c5c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #ff2e2e;
+}
